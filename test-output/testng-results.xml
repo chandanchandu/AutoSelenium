@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching : PASS]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching : PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed:PASS]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41410" started-at="2017-05-13T08:48:20Z" finished-at="2017-05-13T08:49:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="41410" started-at="2017-05-13T08:48:20Z" finished-at="2017-05-13T08:49:01Z">
+      <class name="script.ValidLoginLogout">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.ValidLoginLogout@2a2d45ba]" name="openApplication" is-config="true" duration-ms="9602" started-at="2017-05-13T14:18:20Z" finished-at="2017-05-13T14:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:1, instance:script.ValidLoginLogout@2a2d45ba]" name="testValidLoginLogout" duration-ms="8734" started-at="2017-05-13T14:18:30Z" finished-at="2017-05-13T14:18:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching : PASS]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching : PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.ValidLoginLogout@2a2d45ba]" name="closeApplication" is-config="true" duration-ms="405" started-at="2017-05-13T14:18:38Z" finished-at="2017-05-13T14:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.ValidLoginLogout -->
+      <class name="script.InvalidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.InvalidLogin@7c16905e]" name="openApplication" is-config="true" duration-ms="5201" started-at="2017-05-13T14:18:39Z" finished-at="2017-05-13T14:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@7c16905e]" name="testInvalidLogin" duration-ms="9417" started-at="2017-05-13T14:18:44Z" finished-at="2017-05-13T14:18:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+            <line>
+              <![CDATA[Err Msg is Displayed:PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.InvalidLogin@7c16905e]" name="closeApplication" is-config="true" duration-ms="2168" started-at="2017-05-13T14:18:53Z" finished-at="2017-05-13T14:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.InvalidLogin -->
+      <class name="script.VerifyVersion">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.VerifyVersion@2a5ca609]" name="openApplication" is-config="true" duration-ms="5313" started-at="2017-05-13T14:18:55Z" finished-at="2017-05-13T14:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testVerifyVersion()[pri:3, instance:script.VerifyVersion@2a5ca609]" name="testVerifyVersion" duration-ms="119" started-at="2017-05-13T14:19:01Z" finished-at="2017-05-13T14:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyVersion -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.VerifyVersion@2a5ca609]" name="closeApplication" is-config="true" duration-ms="385" started-at="2017-05-13T14:19:01Z" finished-at="2017-05-13T14:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.VerifyVersion -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
